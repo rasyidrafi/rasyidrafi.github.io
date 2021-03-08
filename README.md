@@ -10,3 +10,6 @@ dihosting menggunakan [Glitch](https://glitch.com)
 ## Source Code
 
 Jika ingin melihat source code website, bisa kontak saya di email rasyid.rafi@aol.com
+
+## License
+[Unlicense](https://github.com/rasyidrafi/rasyidrafi.github.io/blob/main/LICENSE)
