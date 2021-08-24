@@ -11,6 +11,10 @@
   font-weight: bold;
 }
 
+.active {
+  color: var(--text-selected) !important;
+  font-weight: bold;
+}
 
 /* Scroll  */
 .scroll::-webkit-scrollbar {
