@@ -8,7 +8,7 @@ body {
 }
 
 .copyright {
-  background-color: var(--card-lightdark)
+  background-color: var(--card-lightdark);
 }
 
 .copyright span {

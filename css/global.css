@@ -3,7 +3,14 @@
   --card-dark: #212529;
   --card-lightdark: #323038;
   --text-lightgray: #babfbb;
+  --text-selected: #b5ae4f;
 }
+
+.navbar-brand {
+  color: var(--text-lightgray) !important;
+  font-weight: bold;
+}
+
 
 /* Scroll  */
 .scroll::-webkit-scrollbar {
