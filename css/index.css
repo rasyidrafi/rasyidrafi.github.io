@@ -4,5 +4,13 @@ body {
 }
 
 .card-body {
-  background-color: var(--card-bg);
+  background-color: var(--card-dark);
+}
+
+.copyright {
+  background-color: var(--card-lightdark)
+}
+
+.copyright span {
+  color: var(--text-lightgray);
 }
