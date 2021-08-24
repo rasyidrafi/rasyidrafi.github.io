@@ -1,3 +1,18 @@
 :root {
   --body-color: #404040;
+  --card-color: #212529;
+}
+
+/* Scroll  */
+.scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 8px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #212529;
+  border-radius: 8px;
 }
