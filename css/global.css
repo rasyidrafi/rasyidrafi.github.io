@@ -1,6 +1,7 @@
 :root {
   --body-color: #404040;
-  --card-color: #212529;
+  --card-bg: #212529;
+  --text-gray: #babfbb;
 }
 
 /* Scroll  */

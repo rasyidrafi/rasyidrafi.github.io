@@ -4,5 +4,5 @@ body {
 }
 
 .card-body {
-  background-color
+  background-color: var(--card-bg);
 }
