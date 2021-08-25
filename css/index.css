@@ -4,9 +4,11 @@ body {
 }
 
 .bg-img {
-  width: 100%;
+  min-height: 100%;
+  width: auto;
   height: auto;
   position: absolute;
+  top: 0;
   left: 0;
   right: 0;
 }
