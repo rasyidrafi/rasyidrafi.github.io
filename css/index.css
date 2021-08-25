@@ -3,18 +3,14 @@ body {
   height: 100vh;
 }
 
-.row {
-  height: inherit;
+.main {
+  background-image: url('https://cdn.glitch.com/c51c92b1-8289-488b-9aee-d7513691289d%2Fcircle%20black.png?v=1629849516854');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bg-img {
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+.text-main {
+  margin-bottom: 58px;
 }
 
 .card-body {
