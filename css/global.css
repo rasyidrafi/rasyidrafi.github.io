@@ -17,7 +17,7 @@ body {
 
 .copyright {
   background-color: var(--card-lightdark) !important;
-  z-index: 99;
+  z-index: 1;
 }
 
 .copyright span {
@@ -48,7 +48,6 @@ body {
   height: 8px;
 }
 .scroll::-webkit-scrollbar-track {
-  background-color: var(--card-dark);
   border-radius: 8px;
 }
 .scroll::-webkit-scrollbar-thumb {
