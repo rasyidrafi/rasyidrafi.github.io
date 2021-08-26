@@ -10,6 +10,7 @@
 .desc-profile {
   background-color: var(--card-darkblue);
   margin: 0 -16px;
-  padding: 0 5vw;
-  font-size: 0.8rem;
+  padding: 10px 5vw;
+  font-size: 0.8em;
+  color: var(--text-lightgray);
 }

@@ -43,14 +43,15 @@ body {
 
 /* Scroll  */
 .scroll::-webkit-scrollbar {
+  background-color: var(--card-dark);
   width: 8px;
   height: 8px;
 }
 .scroll::-webkit-scrollbar-track {
-  background-color: transparent;
+  background-color: var(--card-dark);
   border-radius: 8px;
 }
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #212529;
+  background-color: var(--card-lightdark);
   border-radius: 8px;
 }
