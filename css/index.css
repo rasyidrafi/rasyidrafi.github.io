@@ -9,6 +9,13 @@ body {
   background-size: cover;
 }
 
+.img-header {
+  position: absolute;
+  bottom: 0;
+  right: -30px;
+  display: block;
+}
+
 .text-main {
   margin-bottom: 58px;
   padding-bottom: 52px;
