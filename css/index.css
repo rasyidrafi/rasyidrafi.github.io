@@ -1,5 +1,4 @@
 body {
-  background-color: var(--body-color);
   height: 100vh;
 }
 
@@ -34,17 +33,4 @@ body {
 .text-main {
   margin-bottom: 58px;
   padding-bottom: 52px;
-}
-
-.card-body {
-  background-color: var(--card-dark);
-}
-
-.copyright {
-  background-color: var(--card-lightdark);
-  z-index: 2;
-}
-
-.copyright span {
-  color: var(--text-lightgray);
 }
