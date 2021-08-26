@@ -12,11 +12,23 @@ body {
 .img-header {
   position: absolute;
   bottom: 0;
-  right: -5em;
+  right: -3.5em;
   max-height: 60%;
   max-width: 550px;
   width: auto;
   height: auto;
+}
+
+@media (min-width: 992px) {
+  .img-header {
+  position: absolute;
+  bottom: 0;
+  right: -5em;
+  max-height: 90%;
+  max-width: 550px;
+  width: auto;
+  height: auto;
+}
 }
 
 .text-main {
