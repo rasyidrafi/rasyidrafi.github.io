@@ -14,3 +14,7 @@
   font-size: 0.8em;
   color: var(--text-lightgray);
 }
+
+.desc-profile a {
+  padding: 5px;
+}
