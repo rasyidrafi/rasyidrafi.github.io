@@ -9,4 +9,4 @@ $.ajax({
   error: err => {
     console.error(err)
   }
-})
+});
