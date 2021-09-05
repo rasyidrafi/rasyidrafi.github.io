@@ -35,6 +35,10 @@
 }
 
 @media (max-width: 767.98px) {
+  #readme * {
+    font-size: 10px !important;
+  }
+  
   #readme img {
     width: 30%;
   }
