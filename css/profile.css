@@ -36,9 +36,16 @@
 
 @media (max-width: 767.98px) {
   #readme img {
-    width: 45%;
+    width: 30%;
   }
   
+  #readme p {
+    text-align: center;
+  }
+  
+  .stats img {
+    width: 100% !important;
+  }
   
   #ig-tag {
     width: 100px !important;
