@@ -4,7 +4,7 @@ $.ajax({
   success: (res) => {
     var converter = new showdown.Converter();
     var readme = converter.makeHtml(res);
-    $('#readme').html(readme);
+    $('#readme').prepend(readme);
   },
   error: err => {
     console.error(err)

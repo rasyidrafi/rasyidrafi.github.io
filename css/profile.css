@@ -23,3 +23,13 @@
 .stats img {
   width: 100%;
 }
+
+.more-ig {
+  font-size: 2rem; 
+}
+
+@media (max-width: 767.98px) {
+  #readme img {
+    width: 100px;
+  }
+}
