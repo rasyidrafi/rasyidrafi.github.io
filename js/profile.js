@@ -5,6 +5,7 @@ $.ajax({
     var converter = new showdown.Converter();
     var readme = converter.makeHtml(res);
     $('#readme').prepend(readme);
+    $('.stats br').remove();
   },
   error: err => {
     console.error(err)
