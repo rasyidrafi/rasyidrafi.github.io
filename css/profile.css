@@ -21,7 +21,13 @@
 }
 
 .stats img {
-  width: 100%;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#stats {
+  text-align: center;
 }
 
 .more-ig {
@@ -30,6 +36,11 @@
 
 @media (max-width: 767.98px) {
   #readme img {
-    width: 100px;
+    width: 45%;
+  }
+  
+  
+  #ig-tag {
+    width: 100px !important;
   }
 }
