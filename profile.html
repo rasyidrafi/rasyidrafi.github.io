@@ -26,10 +26,10 @@
     <!-- Bootstrap -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/global.css" rel="stylesheet" />
-    <link href="/css/index.css" rel="stylesheet" />
+    <link href="/css/profile.css" rel="stylesheet" />
   </head>
   <body class="scroll container py-4">
-    <div class="card h-100 border-2 border-dark overflow-hidden">
+    <div class="card border-2 border-dark">
       <div class="card-body h-100 py-1 main">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -49,40 +49,40 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav w-100 justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/"
+                  <a class="nav-link" href="/"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/profile.html">Profile</a>
+                  <a class="nav-link active" aria-current="page"href="/profile.html">Profile</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="/portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/project.html">Project</a>
+                  <a class="nav-link" href="/project">Project</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/social.html">Social</a>
+                  <a class="nav-link" href="/social">Social</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
 
-        <div class="row h-100">
-          <div class="col-12 col-md-6 text-center text-main flex-column justify-content-center align-items-center d-flex">
-            <span class="fs-3 text-light fw-bold mb-1">
-              Muhammad Rasyid Rafi'i
-            </span>
-            <span id="quote" class="fs-6 text-light fst-italic mb-2">
-              ~ Simple & Effective
-            </span>
-            <a href="/profile.html" class="mt-1 btn btn-outline-warning">Profile</a>
+        <section class="text-center">
+          <img class="profile-img d-block mx-auto my-1 rounded-circle" src="https://cdn.glitch.com/c51c92b1-8289-488b-9aee-d7513691289d%2Fpp.jpeg?v=1629844543580">
+          <span class="header text-light d-block fw-bold mt-1">Rasyid Rafi</span>
+          <span class="text-light">Code || Game || Social</span>
+        </section>
+        <section id="readme" class="w-75 mx-auto mt-3 d-block desc-profile">
+          
+          <hr class="mb-2 mt-3 w-75 mx-auto"/>
+          <div>
+            <span class="header text-center d-block mb-1 fw-bold">Instagram</span>
+            <img id="ig-tag" width="250px" class="d-block mx-auto mt-2" src="https://cdn.glitch.com/c51c92b1-8289-488b-9aee-d7513691289d%2Frasyid_rafi_nametag.png?v=1630803001283"/>
           </div>
-          <div class="col-0 col-md-6"></div>
-            <img class="img-header" src="https://cdn.glitch.com/c51c92b1-8289-488b-9aee-d7513691289d%2FPP.png?v=1629988735755" />
-        </div>
+        </section>
       </div>
       <div class="card-body copyright p-1 text-center">
         <span>Copyright 2021 - Rasyid Rafi</span>
@@ -91,6 +91,7 @@
 
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/jquery-3.6.0.min.js" ></script>
-    <script src="/js/index.js"></script>
+    <script src="/assets/js/showdown.min.js"></script>
+    <script src="/js/profile.js"></script>
   </body>
 </html>
