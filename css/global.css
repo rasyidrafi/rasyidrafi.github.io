@@ -26,7 +26,7 @@ body {
 
 
 .main {
-  background-image: url('https://cdn.glitch.com/c51c92b1-8289-488b-9aee-d7513691289d%2Fcircle%20black.png?v=1629849516854');
+  background-image: url("../assets/img/circle-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
