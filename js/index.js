@@ -1,1 +1,0 @@
-$('#quote').html(`~ ${new Date().getFullYear() - 2004} yo Fullstack Developer`)
