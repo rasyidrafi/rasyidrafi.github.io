@@ -1,0 +1,8 @@
+.max-summary {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.dropskill {
+    cursor: pointer;
+}

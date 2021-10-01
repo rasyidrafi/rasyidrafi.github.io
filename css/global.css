@@ -24,7 +24,6 @@ body {
   color: var(--text-lightgray);
 }
 
-
 .main {
   background-image: url("../assets/img/circle-bg.png");
   background-repeat: no-repeat;
@@ -39,6 +38,15 @@ body {
 .active {
   color: var(--text-selected) !important;
   font-weight: bold;
+}
+
+.text-link {
+  color: #b5ae4f;
+  text-decoration: none;
+}
+
+.text-grey {
+  color: #babfbb;
 }
 
 /* Scroll  */
