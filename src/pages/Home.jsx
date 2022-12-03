@@ -10,7 +10,7 @@ const Home = () => {
                     Muhammad Rasyid Rafi'i
                 </span>
                 <span class="fs-6 text-light fst-italic mb-2">~ {new Date().getFullYear() - 2004} yo Software Engineer Based on Indonesia</span>
-                <Link to="/profile" className="mt-1 btn btn-outline-warning">Profile</Link>
+                {/* <Link to="/profile" className="mt-1 btn btn-outline-warning">Profile</Link> */}
             </Col>
             <Col className='img-col' md={6} xs={0}></Col>
             <img src={ProfileImage} alt="profile" className='img-header' />

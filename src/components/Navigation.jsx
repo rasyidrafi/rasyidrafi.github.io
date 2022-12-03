@@ -18,7 +18,7 @@ export default () => {
             <NavbarToggler
                 onClick={() => setIsOpen(!isOpen)}
             />
-            <Collapse navbar isOpen={isOpen} className="justify-content-center">
+            {/* <Collapse navbar isOpen={isOpen} className="justify-content-center">
                 <Nav navbar>
                     <NavItem>
                         <NavLink>
@@ -62,7 +62,7 @@ export default () => {
                         </NavLink>
                     </NavItem>
                 </Nav>
-            </Collapse>
+            </Collapse> */}
         </Navbar>
     )
 }
